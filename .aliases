@@ -7,4 +7,5 @@ alias cp='cp -i'
 alias mv='mv -i'
 
 alias upp='sudo /bin/sh -c "apt update && apt upgrade && apt autoremove && apt autoclean"'
-alias bash_source='source $HOME/.bashrc'
+alias source_bash='source $HOME/.bashrc'
+alias gh='history|grep'
