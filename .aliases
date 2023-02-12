@@ -8,4 +8,6 @@ alias mv='mv -i'
 
 alias upp='sudo /bin/sh -c "apt update && apt upgrade && apt autoremove && apt autoclean"'
 alias source_bash='source $HOME/.bashrc'
-alias gh='history|grep'
+alias hgrep='history|grep'
+alias agrep='alias|grep'
+alias apti='sudo apt install'

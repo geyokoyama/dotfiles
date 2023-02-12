@@ -1,0 +1,18 @@
+[core]
+	excludesfile = ~/.gitignore
+[user]
+	name = George Yokoyama
+	email = foo@bar.com
+
+[alias]
+	st = status -sb
+	br = branch --all --verbose
+	co = checkout
+	cob = checkout --branch
+	l = log --graph --oneline
+	lg = log --graph
+	ls = ls-files
+	alias = config --get-regexp '^alias\\.'
+	conf = config --list
+	cl = clone --recurse-submodules
+	su = submodule update
