@@ -12,12 +12,22 @@ My configuration files for shells & stuff 🐚
 * **Text Editor**: Neovim
 
 ## Installation
+
+Note: Stock configuration files in the `$home` directory may prevent checking out the repo. Remove them from `$HOME` by either moving them to a backup folder or deleting them.
+
+### Method 1: Manual
+
 1. Clone the repo to $HOME. `git clone --bare git@github.com:geyokoyama/dotfiles.git $HOME/.cfg`
 2. Set alias for the _.cfg_ dotfiles repo for easy access. `alias config='/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME'`
 3. Checkout the repo. `config checkout`
 4. Ignore untracked files. `config config --local status.showUntrackedFiles no`
 
+### Method 2: Script
+
+run `curl -#L https://raw.githubusercontent.com/geyokoyama/dotfiles/main/scripts/setup.sh | /usr/bin/bash`
+
 ## Helpful Links
+
 * [Dotfiles: Best Way to Store in a Bare Git Repository](https://www.atlassian.com/git/tutorials/dotfiles)
 * [The best way to store your dotfiles: A bare Git repository **EXPLAINED**](https://www.ackama.com/what-we-think/the-best-way-to-store-your-dotfiles-a-bare-git-repository-explained/)
 * [Dotfiles - How to Configure your Shell (intro)](https://dev.to/michaelcurrin/dotfiles-to-make-your-shell-awesome-1pa1)
