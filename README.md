@@ -21,6 +21,7 @@ Note: Stock configuration files in the `$home` directory may prevent checking ou
 2. Set alias for the _.cfg_ dotfiles repo for easy access. `alias config='/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME'`
 3. Checkout the repo. `config checkout`
 4. Ignore untracked files. `config config --local status.showUntrackedFiles no`
+5. Set origin to the repo because bare repos don't do so automatically `config push --set-upstream origin main`
 
 ### Method 2: Script
 
