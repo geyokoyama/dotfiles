@@ -32,7 +32,8 @@ Follow either the [manual](https://github.com/geyokoyama/dotfiles#manual) or the
 1. run `curl -#L https://raw.githubusercontent.com/geyokoyama/dotfiles/main/scripts/setup.sh | /usr/bin/bash`
 
 ### Step 2: Install other stuff
-* [Starship](https://starship.rs/guide/#%F0%9F%9A%80-installation)
+* [Starship Shell Prompt](https://starship.rs/guide/#%F0%9F%9A%80-installation)
+* [Neovim Text Editor](https://github.com/neovim/neovim/wiki/Installing-Neovim#ubuntu)
 
 ## Helpful Links
 
