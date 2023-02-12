@@ -110,3 +110,7 @@ if ! shopt -oq posix; then
     . /etc/bash_completion
   fi
 fi
+
+# Starship Prompt
+# Configuration located in $HOME/.config/starship.toml
+eval "$(starship init bash)"

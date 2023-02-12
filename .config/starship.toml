@@ -1,0 +1,8 @@
+[git_branch]
+format = '[\[$symbol$branch(:$remote_branch)\]]($style) '
+
+[nodejs]
+disabled = true
+
+[ruby]
+disabled = true
