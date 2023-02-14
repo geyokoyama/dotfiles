@@ -29,7 +29,7 @@ Follow either the [manual](https://github.com/geyokoyama/dotfiles#manual) or the
 
 #### Script
 
-1. run `curl -#L https://raw.githubusercontent.com/geyokoyama/dotfiles/main/scripts/setup.sh | /usr/bin/bash`
+1. Run `curl -#L https://raw.githubusercontent.com/geyokoyama/dotfiles/main/scripts/setup.sh | /usr/bin/bash`
 
 ### Step 2: Install other stuff
 * [Node Version Manager](https://github.com/nvm-sh/nvm#install--update-script)
