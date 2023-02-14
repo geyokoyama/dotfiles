@@ -25,11 +25,11 @@ Follow either the [manual](https://github.com/geyokoyama/dotfiles#manual) or the
 2. Set alias for the _.cfg_ dotfiles repo for easy access. `alias config='/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME'`
 3. Checkout the repo. `config checkout`
 4. Ignore untracked files. `config config --local status.showUntrackedFiles no`
-5. Set origin to the repo because bare repos don't do so automatically `config push --set-upstream origin main`
+5. Set origin to the remote repo because bare repos don't do so automatically. `config push --set-upstream origin main`
 
 #### Script
 
-1. Run `curl -#L https://raw.githubusercontent.com/geyokoyama/dotfiles/main/scripts/setup.sh | /usr/bin/bash`
+1. Run the following script to install. `curl -#L https://raw.githubusercontent.com/geyokoyama/dotfiles/main/scripts/setup.sh | /usr/bin/bash`
 
 ### Step 2: Install other stuff
 * [Node Version Manager](https://github.com/nvm-sh/nvm#install--update-script)
