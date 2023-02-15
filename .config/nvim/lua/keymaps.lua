@@ -11,7 +11,7 @@ map.set({ 'i', 'v' }, 'jk', '<Esc>')
 
 -- edit/source vimrc
 map.set('n', '<Leader>ev', ':vsplit $MYVIMRC<CR>')
-map.set('n', '<Leader>sv', ':source $MYVIMRC<CR>')
+map.set('n', '<Leader>sv', ':luafile %<CR>')
 
 -- highlight cursor area
 map.set('n', '<F2>', ':set cursorcolumn!<CR> :set cursorline!<CR>')
