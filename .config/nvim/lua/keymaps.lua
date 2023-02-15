@@ -20,5 +20,6 @@ map.set('n', '<F2>', ':set cursorcolumn!<CR> :set cursorline!<CR>')
 map.set('n', '<F3>', ':set list!<CR>', { silent = true })
 
 -- tab navigation
+map.set('n', '<Leader>b', ':ls<CR>:b<Space>')
 map.set('n', '<tab>', ':if &modifiable && !&readonly && &modified <CR> :write<CR> :endif<CR>:bnext<CR>', { silent = true })
 map.set('n', '<s-tab>', ':if &modifiable && !&readonly && &modified <CR> :write<CR> :endif<CR>:bprevious<CR>', { silent = true })

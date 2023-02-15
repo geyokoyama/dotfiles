@@ -7,3 +7,13 @@ config checkout
 config config --local status.showUntrackedFiles no
 config push --set-upstream origin main
 echo "Restart your shell or run \`source $HOME/.bashrc\` to see changes"
+
+# Install Starship
+# curl -sS https://starship.rs/install.sh | sh
+
+# Install Neovim
+<<COMMENT
+sudo add-apt-repository ppa:neovim-ppa/unstable
+sudo apt-get update
+sudo apt-get install neovim
+COMMENT
