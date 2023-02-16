@@ -30,7 +30,7 @@
 ### Statusline & Tabline & Winbar
 
 ### Motion
-* \*[ggandor/leap.nvim](https://github.com/ggandor/leap.nvim)
+* [ggandor/leap.nvim](https://github.com/ggandor/leap.nvim)
 
 ### Editing Support
 * \*[numToStr/Comment.nvim](https://github.com/numToStr/Comment.nvim)

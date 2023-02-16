@@ -18,6 +18,11 @@ return require('packer').startup(function(use)
     end
   }
 
+  use {
+    "ggandor/leap.nvim",
+    config = function() require('leap').add_default_mappings() end
+  }
+
   use "EdenEast/nightfox.nvim"
 
 end)
