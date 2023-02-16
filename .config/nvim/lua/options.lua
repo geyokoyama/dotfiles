@@ -8,12 +8,13 @@ set.colorcolumn    = "80"
 set.relativenumber = true
 set.scrolloff      = 999
 set.signcolumn     = "yes"
-set['showbreak']   = '▶▶▶'  -- hidden character to indicate start of wrapped line
-set.listchars      = 'tab:│·,eol:↲,nbsp:␣,trail:•,extends:▶,precedes:◀' -- set hidden characters
+set['showbreak']   = "▶▶▶"
+set.list           = true
+set.listchars      = "tab:▶—,eol:↲,space:⋅,nbsp:␣,trail:•,extends:▶,precedes:◀"
 
 -- THEME
 set.termguicolors  = true
-vim.g.background   = "dark"
+vim.cmd('colorscheme nordfox')
 
 -- SEARCH
 set.ignorecase     = true

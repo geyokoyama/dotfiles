@@ -1,17 +1,23 @@
 -- [[ plugins.lua ]] --
 
 return require('packer').startup(function(use)
-  use 'wbthomason/packer.nvim'
+  use "wbthomason/packer.nvim"
 
-  use({
+  use {
     "kylechui/nvim-surround",
-    tag = "*", -- Use for stability; omit to use `main` branch for the latest features
-    config = function()
-        require("nvim-surround").setup({
-            -- Configuration here, or leave empty to use defaults
-        })
-    end
-  })
+    tag = "*",
+    config = function() require('nvim-surround').setup() end
+  }
 
-  use "lukas-reineke/indent-blankline.nvim"
+  use {
+    "lukas-reineke/indent-blankline.nvim",
+    config = function()
+      require('indent_blankline').setup({
+        show_end_of_line = true
+      })
+    end
+  }
+
+  use "EdenEast/nightfox.nvim"
+
 end)

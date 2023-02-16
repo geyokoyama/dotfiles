@@ -23,6 +23,10 @@
 
 * \*[nvim-telescope/telescope.nvim](https://github.com/nvim-telescope/telescope.nvim)
 
+### Color Scheme
+
+* [EdenEast/nightfox.nvim](https://github.com/EdenEast/nightfox.nvim)
+
 ### Statusline & Tabline & Winbar
 
 ### Motion
