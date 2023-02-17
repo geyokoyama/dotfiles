@@ -19,3 +19,4 @@
 	su    = submodule update
 	cm    = commit -m
   d     = diff
+  dh    = diff HEAD

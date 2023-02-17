@@ -14,6 +14,13 @@
 
 * [wbthomason/packer.nvim](https://github.com/wbthomason/packer.nvim)
 
+### LSP
+
+* \*[neovim/nvim-lspconfig](https://github.com/neovim/nvim-lspconfig)
+* \*[williamboman/mason.nvim](https://github.com/williamboman/mason.nvim)
+* \*[williamboman/mason-lspconfig.nvim](https://github.com/williamboman/mason-lspconfig.nvim)
+* \*[hrsh7th/nvim-cmp](https://github.com/hrsh7th/nvim-cmp)
+
 ### Syntax
 
 * \*[nvim-treesitter/nvim-treesitter](https://github.com/nvim-treesitter/nvim-treesitter)
@@ -21,7 +28,7 @@
 
 ### Fuzzy Finder
 
-* \*[nvim-telescope/telescope.nvim](https://github.com/nvim-telescope/telescope.nvim)
+* \*[ibhagwan/fzf-lua](https://github.com/ibhagwan/fzf-lua)
 
 ### Color Scheme
 
@@ -34,7 +41,6 @@
 
 ### Editing Support
 * [numToStr/Comment.nvim](https://github.com/numToStr/Comment.nvim)
-* \*[folke/todo-comments.nvim](https://github.com/folke/todo-comments.nvim)
 * [lukas-reineke/indent-blankline.nvim](https://github.com/lukas-reineke/indent-blankline.nvim)
 
-_\* Plan to install later_
+_\* Considering to install_

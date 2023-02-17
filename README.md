@@ -41,8 +41,13 @@ Follow either the [manual](https://github.com/geyokoyama/dotfiles#manual) or the
 * [Dotfiles: Best Way to Store in a Bare Git Repository](https://www.atlassian.com/git/tutorials/dotfiles)
 * [The best way to store your dotfiles: A bare Git repository **EXPLAINED**](https://www.ackama.com/what-we-think/the-best-way-to-store-your-dotfiles-a-bare-git-repository-explained/)
 * [Dotfiles - How to Configure your Shell (intro)](https://dev.to/michaelcurrin/dotfiles-to-make-your-shell-awesome-1pa1)
+* [Build your first Neovim configuration in lua](https://vonheikemen.github.io/devlog/tools/build-your-first-lua-config-for-neovim/)
+* [Everything you need to know to configure neovim using lua](https://vonheikemen.github.io/devlog/tools/configuring-neovim-using-lua/)
 
 ## TODO
-* Neovim: Install plugins
 * Neovim: Change keybindings for netrw
 * Neovim: Change default configs for netrw
+* Neovim: Install Treesitter
+* Bash:   Install fzf
+* Neovim: Install fzf plugins
+* Neovim: Install LSP plugins
