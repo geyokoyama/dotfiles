@@ -23,6 +23,11 @@ return require('packer').startup(function(use)
     config = function() require('leap').add_default_mappings() end
   }
 
+  use {
+    'numToStr/Comment.nvim',
+    config = function() require('Comment').setup() end
+  }
+
   use "EdenEast/nightfox.nvim"
 
 end)

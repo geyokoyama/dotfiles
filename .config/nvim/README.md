@@ -33,7 +33,7 @@
 * [ggandor/leap.nvim](https://github.com/ggandor/leap.nvim)
 
 ### Editing Support
-* \*[numToStr/Comment.nvim](https://github.com/numToStr/Comment.nvim)
+* [numToStr/Comment.nvim](https://github.com/numToStr/Comment.nvim)
 * \*[folke/todo-comments.nvim](https://github.com/folke/todo-comments.nvim)
 * [lukas-reineke/indent-blankline.nvim](https://github.com/lukas-reineke/indent-blankline.nvim)
 
