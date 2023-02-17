@@ -45,8 +45,6 @@ Follow either the [manual](https://github.com/geyokoyama/dotfiles#manual) or the
 * [Everything you need to know to configure neovim using lua](https://vonheikemen.github.io/devlog/tools/configuring-neovim-using-lua/)
 
 ## TODO
-* Neovim: Change keybindings for netrw
-* Neovim: Change default configs for netrw
 * Neovim: Install Treesitter
 * Bash:   Install fzf
 * Neovim: Install fzf plugins

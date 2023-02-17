@@ -10,7 +10,7 @@ vim.g.localleader = ","
 map.set({ 'i', 'v' }, 'jk', '<Esc>')
 
 -- edit/source vimrc
-map.set('n', '<Leader>ev', ':vsplit $MYVIMRC<CR>')
+map.set('n', '<Leader>ev', ':e $MYVIMRC<CR>')
 map.set('n', '<Leader>sv', ':luafile %<CR>')
 
 -- highlight cursor area
