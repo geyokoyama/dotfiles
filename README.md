@@ -34,7 +34,7 @@ Follow either the [manual](https://github.com/geyokoyama/dotfiles#manual) or the
 ### Step 2: Install other stuff
 * [Node Version Manager](https://github.com/nvm-sh/nvm#install--update-script)
 * [Starship Shell Prompt](https://starship.rs/guide/#%F0%9F%9A%80-installation)
-* [Neovim Text Editor](https://github.com/neovim/neovim/wiki/Installing-Neovim#ubuntu)
+* [Neovim Text Editor](https://github.com/neovim/neovim/wiki/Installing-Neovim#ubuntu) - [configs](https://github.com/geyokoyama/dotfiles/tree/main/.config/nvim)
 
 ## Helpful Links
 

@@ -7,6 +7,6 @@ vim.api.nvim_create_autocmd('FileType', {
   pattern = 'netrw',
   desc = 'Better mappings for netrw',
   callback = function()
-      vim.keymap.set('n', '?', ':h netrw-quickmap<CR>', { buffer = true })
+      vim.keymap.set('n', '?', ':h netrw-quickmap<CR>', { buffer = true, silent = true })
   end
 })

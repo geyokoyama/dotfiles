@@ -26,4 +26,4 @@ map.set('n', '<s-tab>', ':if &modifiable && !&readonly && &modified <CR> :write<
 
 -- netrw
 map.set('n', '-', ':E<CR>')
-map.set('n', '<Leader>-', ':R<CR>')
+map.set('n', '<Leader>-', ':R<CR>', { silent = true })
