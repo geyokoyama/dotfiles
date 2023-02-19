@@ -15,7 +15,7 @@ set.breakindent       = true
 
 -- THEME
 set.termguicolors     = true
-vim.cmd('colorscheme nordfox')
+vim.cmd('colorscheme nordfox')  -- nightfox, duskfox, nordfox, terafox
 
 -- SEARCH
 set.ignorecase        = true

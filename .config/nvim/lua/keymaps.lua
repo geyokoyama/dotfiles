@@ -25,8 +25,8 @@ map.set('n', '<tab>', ':if &modifiable && !&readonly && &modified <CR> :write<CR
 map.set('n', '<s-tab>', ':if &modifiable && !&readonly && &modified <CR> :write<CR> :endif<CR>:bprevious<CR>', { silent = true })
 
 -- clipboard
-map.set({'n', 'x'}, 'cp', '"+y')
-map.set({'n', 'x'}, 'cv', '"+p')
+map.set({'n', 'x'}, '<Leader>y', '"+y')
+map.set({'n', 'x'}, '<Leader>p', '"+p')
 
 -- netrw
 map.set('n', '-', ':E<CR>')
