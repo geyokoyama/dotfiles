@@ -11,6 +11,7 @@ set.signcolumn        = "yes"
 set['showbreak']      = "▶▶▶"
 set.list              = true
 set.listchars         = "tab:▶—,eol:↲,space:⋅,nbsp:␣,trail:•,extends:▶,precedes:◀"
+set.breakindent       = true
 
 -- THEME
 set.termguicolors     = true
@@ -19,6 +20,7 @@ vim.cmd('colorscheme nordfox')
 -- SEARCH
 set.ignorecase        = true
 set.smartcase         = true
+set.hlsearch          = false
 
 -- WHITESPACE
 set.expandtab         = true
