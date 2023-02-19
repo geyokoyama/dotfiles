@@ -36,6 +36,10 @@
 
 ### Statusline & Tabline & Winbar
 
+### Git
+* \*[lewis6991/gitsigns.nvim](https://github.com/lewis6991/gitsigns.nvim)
+* \*[f-person/git-blame.nvim](https://github.com/f-person/git-blame.nvim)
+
 ### Motion
 * [ggandor/leap.nvim](https://github.com/ggandor/leap.nvim)
 

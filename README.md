@@ -46,6 +46,8 @@ Follow either the [manual](https://github.com/geyokoyama/dotfiles#manual) or the
 * [Everything you need to know to configure neovim using lua](https://vonheikemen.github.io/devlog/tools/configuring-neovim-using-lua/)
 
 ## TODO
+* Neovim: Add plugin that shows git info
 * Neovim: Install Treesitter
 * Neovim: Install fzf plugins
 * Neovim: Install LSP plugins
+* Maybe switch to ZSH
