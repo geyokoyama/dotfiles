@@ -20,3 +20,5 @@
 	cm    = commit -m
   d     = diff
   dh    = diff HEAD
+  p     = push
+  a     = add -u
