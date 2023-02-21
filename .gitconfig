@@ -1,23 +1,25 @@
 [core]
-	excludesfile = ~/.gitignore
+  excludesfile = ~/.gitignore
 
 [user]
-	name  = Foo Bar
-	email = foo@bar.com
+  name  = Foo Bar
+  email = foo@bar.com
 
 [alias]
-	st    = status -sb
-	br    = branch --all --verbose
-	co    = checkout
-	cob   = checkout --branch
-	l     = log --graph --oneline
-	lg    = log --graph
-	ls    = ls-files
-	alias = config --get-regexp '^alias\\.'
-	conf  = config --list
-	cl    = clone --recurse-submodules
-	su    = submodule update
-	cm    = commit -m
+  st    = status -sb
+  b     = branch
+  bd    = branch -D
+  co    = checkout
+  cob   = checkout -b
+  com   = checkout main
+  l     = log --graph --oneline
+  lg    = log --graph
+  ls    = ls-files
+  alias = config --get-regexp '^alias\\.'
+  conf  = config --list
+  cl    = clone --recurse-submodules
+  su    = submodule update
+  cm    = commit -m
   d     = diff
   dh    = diff HEAD
   p     = push
