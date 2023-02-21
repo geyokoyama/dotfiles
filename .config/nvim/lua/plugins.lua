@@ -28,6 +28,10 @@ return require('packer').startup(function(use)
     config = function() require('Comment').setup() end
   }
 
+  use { 'ibhagwan/fzf-lua',
+    requires = { 'nvim-tree/nvim-web-devicons' }
+  }
+
   use "EdenEast/nightfox.nvim"
 
 end)
