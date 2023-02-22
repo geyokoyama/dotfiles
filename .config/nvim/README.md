@@ -28,7 +28,7 @@
 
 ### Fuzzy Finder
 
-* \*[ibhagwan/fzf-lua](https://github.com/ibhagwan/fzf-lua)
+* [ibhagwan/fzf-lua](https://github.com/ibhagwan/fzf-lua)
 
 ### Color Scheme
 
