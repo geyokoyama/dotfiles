@@ -35,6 +35,7 @@
 * [EdenEast/nightfox.nvim](https://github.com/EdenEast/nightfox.nvim)
 
 ### Statusline & Tabline & Winbar
+* [nvim-lualine/lualine.nvim](https://github.com/nvim-lualine/lualine.nvim)
 
 ### Git
 * \*[lewis6991/gitsigns.nvim](https://github.com/lewis6991/gitsigns.nvim)
