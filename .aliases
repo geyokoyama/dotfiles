@@ -12,3 +12,5 @@ alias hgrep='history|grep'
 alias agrep='alias|grep'
 alias apti='sudo apt install'
 alias g='git'
+
+alias proj='cd ~/projects'
