@@ -9,5 +9,4 @@ require('fzflua')
 
 -- PLUGINS
 require('gitsigns').setup()
-
 require('lualine').setup()

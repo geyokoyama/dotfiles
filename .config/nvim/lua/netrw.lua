@@ -6,8 +6,8 @@ vim.g.netrw_banner    = 0
 vim.g.netrw_keepdir   = 0
 
 -- keymaps
-vim.keymap.set('n', '-', ':E<CR>')
-vim.keymap.set('n', '<Leader>-', ':R<CR>', { silent = true })
+vim.keymap.set('n', '-', ':Explore<CR>')
+vim.keymap.set('n', '<Leader>-', ':Rexplore<CR>', { silent = true })
 
 vim.api.nvim_create_autocmd('FileType', {
   pattern = 'netrw',
@@ -17,7 +17,7 @@ vim.api.nvim_create_autocmd('FileType', {
       vim.keymap.set('n', lhs, rhs, { buffer = true, silent = true })
     end
 
-    bind('?', ':h netrw-quickmap<CR>')
+    bind('?', ':help netrw-quickmap<CR>')
     bind('P', '<C-w>z')
   end
 })
