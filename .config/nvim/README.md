@@ -38,8 +38,7 @@
 * [nvim-lualine/lualine.nvim](https://github.com/nvim-lualine/lualine.nvim)
 
 ### Git
-* \*[lewis6991/gitsigns.nvim](https://github.com/lewis6991/gitsigns.nvim)
-* \*[f-person/git-blame.nvim](https://github.com/f-person/git-blame.nvim)
+* [lewis6991/gitsigns.nvim](https://github.com/lewis6991/gitsigns.nvim)
 
 ### Motion
 * [ggandor/leap.nvim](https://github.com/ggandor/leap.nvim)
