@@ -32,11 +32,13 @@ return require('packer').startup(function(use)
     requires = { 'nvim-tree/nvim-web-devicons' }
   }
 
+  use "lewis6991/gitsigns.nvim"
+
+  use "EdenEast/nightfox.nvim"
+
   use {
     'nvim-lualine/lualine.nvim',
     requires = { 'kyazdani42/nvim-web-devicons', opt = true }
   }
-
-  use "EdenEast/nightfox.nvim"
 
 end)
