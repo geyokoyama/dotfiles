@@ -14,3 +14,4 @@ alias apti='sudo apt install'
 alias g='git'
 
 alias proj='cd ~/projects'
+alias nfig='cd ~/.config/nvim'
