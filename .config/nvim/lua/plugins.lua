@@ -3,6 +3,8 @@
 return require('packer').startup(function(use)
   use "wbthomason/packer.nvim"
 
+  use "mattn/emmet-vim"
+
   use {
     "kylechui/nvim-surround",
     tag = "*",
