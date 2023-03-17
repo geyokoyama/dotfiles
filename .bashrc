@@ -108,6 +108,10 @@ export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"
 
+# rbenv
+eval "$(~/.rbenv/bin/rbenv init - bash)"
+export PATH="$HOME/.rbenv/plugins/ruby-build/bin:$PATH"
+
 # FZF
 [ -f ~/.fzf.bash ] && source ~/.fzf.bash
 

@@ -24,3 +24,5 @@
   dh    = diff HEAD
   p     = push
   a     = add -u
+[init]
+	defaultBranch = main
