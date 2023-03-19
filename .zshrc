@@ -51,6 +51,8 @@ eval "$(~/.rbenv/bin/rbenv init - zsh)"
 export PATH="$HOME/.rbenv/plugins/ruby-build/bin:$PATH"
 
 # FZF
+export PATH="$HOME/.config/fzf-zsh-plugin/bin:$PATH"
+source "$HOME/.config/fzf-zsh-plugin/fzf-zsh-plugin.plugin.zsh"
 
 # Spaceship Prompt
 # source "$HOME/.config/spaceship/spaceship.zsh"

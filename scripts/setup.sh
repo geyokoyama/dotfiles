@@ -22,6 +22,9 @@ echo "Restart your shell to see changes"
 
 # Install rbenv
 
+# Install fzf
+# Install fzf-zsh-plugin
+
 # Install Neovim
 <<COMMENT
 sudo add-apt-repository ppa:neovim-ppa/unstable

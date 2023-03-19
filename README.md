@@ -51,3 +51,4 @@ Follow either the [manual](https://github.com/geyokoyama/dotfiles#manual) or the
 * Neovim: Install LSP plugins
 * Maybe switch to ZSH
 * Troubleshoot zsh spaceship
+* Troubleshoot fzf-zsh-plugin
