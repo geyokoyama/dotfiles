@@ -6,10 +6,21 @@ config() {
 config checkout
 config config --local status.showUntrackedFiles no
 config push --set-upstream origin main
-echo "Restart your shell or run \`source $HOME/.bashrc\` to see changes"
+echo "Restart your shell to see changes"
+
+# Install Zsh
+# sudo apt-get install zsh
 
 # Install Starship
 # curl -sS https://starship.rs/install.sh | sh
+
+# Install Spaceship
+# mkdir -p "$HOME/.config/spaceship"
+# git clone --depth=1 https://github.com/spaceship-prompt/spaceship-prompt.git "$HOME/.config/spaceship"
+
+# Install NVM
+
+# Install rbenv
 
 # Install Neovim
 <<COMMENT

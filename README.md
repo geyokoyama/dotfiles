@@ -32,9 +32,10 @@ Follow either the [manual](https://github.com/geyokoyama/dotfiles#manual) or the
 1. Run the following script to install. `curl -#L https://raw.githubusercontent.com/geyokoyama/dotfiles/main/scripts/setup.sh | /usr/bin/bash`
 
 ### Step 2: Install other stuff
+* [ZSH](https://linuxhandbook.com/install-zsh/)
 * [Node Version Manager](https://github.com/nvm-sh/nvm#install--update-script)
-* [Starship Shell Prompt](https://starship.rs/guide/#%F0%9F%9A%80-installation)
-* [fzf](https://github.com/junegunn/fzf#using-git)
+* [Starship Shell Prompt](https://starship.rs/guide/#%F0%9F%9A%80-installation) or [Spaceship](https://spaceship-prompt.sh/getting-started/#installing) for zsh
+* [fzf](https://github.com/junegunn/fzf#using-git) and [fzf-zsh-plugin](https://github.com/unixorn/fzf-zsh-plugin#without-using-a-framework) if using zsh
 * [Neovim Text Editor](https://github.com/neovim/neovim/wiki/Installing-Neovim#ubuntu) - [configs](https://github.com/geyokoyama/dotfiles/tree/main/.config/nvim)
 
 ## Helpful Links
@@ -46,8 +47,7 @@ Follow either the [manual](https://github.com/geyokoyama/dotfiles#manual) or the
 * [Everything you need to know to configure neovim using lua](https://vonheikemen.github.io/devlog/tools/configuring-neovim-using-lua/)
 
 ## TODO
-* Neovim: Add plugin that shows git info
 * Neovim: Install Treesitter
-* Neovim: Install fzf plugins
 * Neovim: Install LSP plugins
 * Maybe switch to ZSH
+* Troubleshoot zsh spaceship
