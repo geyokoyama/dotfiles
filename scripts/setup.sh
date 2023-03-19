@@ -25,6 +25,10 @@ echo "Restart your shell to see changes"
 # Install fzf
 # Install fzf-zsh-plugin
 
+# Install zsh-syntax-highlighting
+# mkdir -p "$HOME/.config/zsh-syntax-highlighting"
+# git clone https://github.com/zsh-users/zsh-syntax-highlighting.git "$HOME/.config/zsh-syntax-highlighting"
+
 # Install Neovim
 <<COMMENT
 sudo add-apt-repository ppa:neovim-ppa/unstable

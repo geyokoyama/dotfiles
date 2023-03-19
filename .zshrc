@@ -56,3 +56,6 @@ source "$HOME/.config/fzf-zsh-plugin/fzf-zsh-plugin.plugin.zsh"
 
 # Spaceship Prompt
 # source "$HOME/.config/spaceship/spaceship.zsh"
+
+# Zsh Syntax Highlighting
+source "$HOME/.config/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh"

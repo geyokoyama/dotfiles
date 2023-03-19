@@ -37,6 +37,7 @@ Follow either the [manual](https://github.com/geyokoyama/dotfiles#manual) or the
 * [Starship Shell Prompt](https://starship.rs/guide/#%F0%9F%9A%80-installation) or [Spaceship](https://spaceship-prompt.sh/getting-started/#installing) for zsh
 * [fzf](https://github.com/junegunn/fzf#using-git) and [fzf-zsh-plugin](https://github.com/unixorn/fzf-zsh-plugin#without-using-a-framework) if using zsh
 * [Neovim Text Editor](https://github.com/neovim/neovim/wiki/Installing-Neovim#ubuntu) - [configs](https://github.com/geyokoyama/dotfiles/tree/main/.config/nvim)
+* [zsh-syntax-highlighting](https://github.com/zsh-users/zsh-syntax-highlighting/blob/master/INSTALL.md)
 
 ## Helpful Links
 
