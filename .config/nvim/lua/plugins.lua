@@ -14,9 +14,7 @@ return require('packer').startup(function(use)
   use {
     "lukas-reineke/indent-blankline.nvim",
     config = function()
-      require('indent_blankline').setup({
-        show_end_of_line = true
-      })
+      require('ibl').setup()
     end
   }
 
@@ -34,13 +32,16 @@ return require('packer').startup(function(use)
     requires = { 'nvim-tree/nvim-web-devicons' }
   }
 
-  use "lewis6991/gitsigns.nvim"
+  use { "lewis6991/gitsigns.nvim",
+    config = function() require('gitsigns').setup() end
+  }
 
   use "EdenEast/nightfox.nvim"
 
   use {
     'nvim-lualine/lualine.nvim',
-    requires = { 'kyazdani42/nvim-web-devicons', opt = true }
+    requires = { 'kyazdani42/nvim-web-devicons', opt = true },
+    config = function() require('lualine').setup() end
   }
 
 end)
