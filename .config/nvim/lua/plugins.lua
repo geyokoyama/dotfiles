@@ -28,11 +28,13 @@ return require('packer').startup(function(use)
     config = function() require('Comment').setup() end
   }
 
-  use { 'ibhagwan/fzf-lua',
+  use {
+    'ibhagwan/fzf-lua',
     requires = { 'nvim-tree/nvim-web-devicons' }
   }
 
-  use { "lewis6991/gitsigns.nvim",
+  use {
+    "lewis6991/gitsigns.nvim",
     config = function() require('gitsigns').setup() end
   }
 
