@@ -11,7 +11,7 @@ vim.keymap.set('n', '<Leader>-', ':Rexplore<CR>', { silent = true })
 
 vim.api.nvim_create_autocmd('FileType', {
   pattern = 'netrw',
-  desc = 'Better mappings for netrw',
+  desc = "Better mappings for netrw",
   callback = function()
     local bind = function(lhs, rhs)
       vim.keymap.set('n', lhs, rhs, { buffer = true, silent = true })

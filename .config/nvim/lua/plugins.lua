@@ -22,40 +22,40 @@ require("lazy").setup({
     "kylechui/nvim-surround",
     version = "*",
     event = "VeryLazy",
-    config = function() require('nvim-surround').setup() end
+    config = function() require("nvim-surround").setup() end
   },
 
   {
     "lukas-reineke/indent-blankline.nvim",
     config = function()
-      require('ibl').setup()
+      require("ibl").setup()
     end
   },
 
   {
     "ggandor/leap.nvim",
-    dependencies = { 'tpope/vim-repeat' },
-    config = function() require('leap').add_default_mappings() end
+    dependencies = { "tpope/vim-repeat" },
+    config = function() require("leap").add_default_mappings() end
   },
 
   {
-    'numToStr/Comment.nvim',
-    config = function() require('Comment').setup() end
+    "numToStr/Comment.nvim",
+    config = function() require("Comment").setup() end
   },
 
-  'ibhagwan/fzf-lua',
+  "ibhagwan/fzf-lua",
 
   {
     "lewis6991/gitsigns.nvim",
-    config = function() require('gitsigns').setup() end
+    config = function() require("gitsigns").setup() end
   },
 
   "EdenEast/nightfox.nvim",
 
   {
-    'nvim-lualine/lualine.nvim',
-    dependencies = { 'kyazdani42/nvim-web-devicons', lazy = true },
-    config = function() require('lualine').setup() end
+    "nvim-lualine/lualine.nvim",
+    dependencies = { "kyazdani42/nvim-web-devicons", lazy = true },
+    config = function() require("lualine").setup() end
   }
 
 })
