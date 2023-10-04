@@ -1,49 +1,62 @@
 -- [[ plugins.lua ]] --
 
-return require('packer').startup(function(use)
-  use "wbthomason/packer.nvim"
+-- Install package manager
+local lazypath = vim.fn.stdpath("data") .. "/lazy/lazy.nvim"
+if not vim.loop.fs_stat(lazypath) then
+  vim.fn.system({
+    "git",
+    "clone",
+    "--filter=blob:none",
+    "https://github.com/folke/lazy.nvim.git",
+    "--branch=stable", -- latest stable release
+    lazypath,
+  })
+end
+vim.opt.rtp:prepend(lazypath)
 
-  use "mattn/emmet-vim"
+-- Install plugins
+require("lazy").setup({
+  "mattn/emmet-vim",
 
-  use {
+  {
     "kylechui/nvim-surround",
-    tag = "*",
+    version = "*",
+    event = "VeryLazy",
     config = function() require('nvim-surround').setup() end
-  }
+  },
 
-  use {
+  {
     "lukas-reineke/indent-blankline.nvim",
     config = function()
       require('ibl').setup()
     end
-  }
+  },
 
-  use {
+  "tpope/vim-repeat",
+
+  {
     "ggandor/leap.nvim",
     config = function() require('leap').add_default_mappings() end
-  }
+  },
 
-  use {
+  {
     'numToStr/Comment.nvim',
     config = function() require('Comment').setup() end
-  }
+  },
 
-  use {
-    'ibhagwan/fzf-lua',
-    requires = { 'nvim-tree/nvim-web-devicons' }
-  }
+  'ibhagwan/fzf-lua',
 
-  use {
+  {
     "lewis6991/gitsigns.nvim",
     config = function() require('gitsigns').setup() end
-  }
+  },
 
-  use "EdenEast/nightfox.nvim"
+  "EdenEast/nightfox.nvim",
 
-  use {
+  {
     'nvim-lualine/lualine.nvim',
-    requires = { 'kyazdani42/nvim-web-devicons', opt = true },
+    dependencies = { 'kyazdani42/nvim-web-devicons', lazy = true },
     config = function() require('lualine').setup() end
   }
 
-end)
+})
