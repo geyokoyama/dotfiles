@@ -1,4 +1,6 @@
--- [[ options.lua ]] --
+------------
+-- CONFIG --
+------------
 
 -- CONTEXT
 vim.opt.title             = true
@@ -24,3 +26,9 @@ vim.opt.shiftwidth        = 2
 
 -- FOLDING
 vim.opt.foldmethod        = "marker"
+
+-- KEYMAPS
+require("core.keymaps")
+
+-- NETRW
+require("core.netrw")

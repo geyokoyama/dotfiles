@@ -1,4 +1,10 @@
--- [[ keymaps.lua ]] --
+-------------
+-- KEYMAPS --
+-------------
+
+-- <Leader>
+vim.g.mapleader = " "
+vim.g.localleader = ","
 
 -- <Esc>
 vim.keymap.set({ 'i', 'v' }, 'jk', '<Esc>')

@@ -1,10 +1,6 @@
--- [[ init.lua ]] --
+--------------------------
+-- NEOVIM CONFIGURATION --
+--------------------------
 
-vim.g.mapleader = " "
-vim.g.localleader = ","
-
--- IMPORTS
+require("core")
 require("plugins")
-require("options")
-require("keymaps")
-require("netrw")
