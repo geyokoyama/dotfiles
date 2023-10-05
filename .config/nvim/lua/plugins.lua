@@ -50,7 +50,10 @@ require("lazy").setup({
     config = function() require("gitsigns").setup() end
   },
 
-  "EdenEast/nightfox.nvim",
+  {
+    "EdenEast/nightfox.nvim",
+    config = function() vim.cmd("colorscheme nordfox") end  -- nightfox, duskfox, nordfox, terafox
+  },
 
   {
     "nvim-lualine/lualine.nvim",

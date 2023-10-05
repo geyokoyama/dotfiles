@@ -11,10 +11,6 @@ vim.opt.list              = true
 vim.opt.listchars         = "tab:▶—,eol:↲,space:⋅,nbsp:␣,trail:•,extends:▶,precedes:◀"
 vim.opt.breakindent       = true
 
--- THEME
-vim.opt.termguicolors     = true
-vim.cmd("colorscheme nordfox")  -- nightfox, duskfox, nordfox, terafox
-
 -- SEARCH
 vim.opt.ignorecase        = true
 vim.opt.smartcase         = true
