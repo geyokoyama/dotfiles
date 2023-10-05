@@ -43,7 +43,13 @@ require("lazy").setup({
     config = function() require("Comment").setup() end
   },
 
-  "ibhagwan/fzf-lua",
+  {
+    "ibhagwan/fzf-lua",
+    keys = {
+      { "<c-p>", ":FzfLua files<CR>", silent = true },
+      { "<c-b>", ":FzfLua buffers<CR>", silent = true }
+    },
+  },
 
   {
     "lewis6991/gitsigns.nvim",
