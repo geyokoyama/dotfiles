@@ -12,6 +12,7 @@ vim.opt["showbreak"]      = "▶▶▶"
 vim.opt.list              = true
 vim.opt.listchars         = "tab:▶—,eol:↲,space:⋅,nbsp:␣,trail:•,extends:▶,precedes:◀"
 vim.opt.breakindent       = true
+vim.opt.showmode          = false
 
 -- SEARCH
 vim.opt.ignorecase        = true

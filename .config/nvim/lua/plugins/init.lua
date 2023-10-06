@@ -34,6 +34,8 @@ require("lazy").setup({
     end
   },
 
+  "wellle/targets.vim",
+
   {
     "ggandor/leap.nvim",
     dependencies = { "tpope/vim-repeat" },
