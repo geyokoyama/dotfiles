@@ -25,5 +25,5 @@ vim.keymap.set('n', '<tab>', ':if &modifiable && !&readonly && &modified <CR> :w
 vim.keymap.set('n', '<s-tab>', ':if &modifiable && !&readonly && &modified <CR> :write<CR> :endif<CR>:bprevious<CR>', { silent = true })
 
 -- clipboard
-vim.keymap.set({'n', 'x'}, '<Leader>y', '"+y')
-vim.keymap.set({'n', 'x'}, '<Leader>p', '"+p')
+vim.keymap.set({'n', 'v'}, '<Leader>y', '"+y')
+vim.keymap.set({'n', 'v'}, '<Leader>p', '"+p')

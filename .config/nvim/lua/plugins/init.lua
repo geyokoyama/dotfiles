@@ -62,11 +62,9 @@ require("lazy").setup({
     keys = {
       { "<Leader>hh", ":Gitsigns next_hunk<CR>" },
       { "<Leader>HH", ":Gitsigns prev_hunk<CR>" },
-      { "<Leader>hs", ":Gitsigns stage_hunk<CR>" },
-      { "<Leader>hs", ":Gitsigns stage_hunk<CR>", mode = "v" },
+      { "<Leader>hs", ":Gitsigns stage_hunk<CR>", mode = { "n", "v" } },
       { "<Leader>hS", ":Gitsigns stage_buffer<CR>" },
-      { "<Leader>hr", ":Gitsigns reset_hunk<CR>" },
-      { "<Leader>hr", ":Gitsigns reset_hunk<CR>", mode = "v" },
+      { "<Leader>hr", ":Gitsigns reset_hunk<CR>", mode = { "n", "v" } },
       { "<Leader>hR", ":Gitsigns reset_buffer<CR>" },
       { "<Leader>hRR", ":Gitsigns reset_buffer_index<CR>" },
       { "<Leader>hu", ":Gitsigns undo_stage_hunk<CR>" },
