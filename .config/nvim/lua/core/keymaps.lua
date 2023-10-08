@@ -21,6 +21,7 @@ vim.keymap.set("n", "<F3>", ":set list!<CR>", { silent = true })
 
 -- tab navigation
 vim.keymap.set("n", "<Leader>b", ":ls<CR>:b<Space>")
+vim.keymap.set("n", "<Leader>bd", ":bd<CR>")
 vim.keymap.set("n", "<tab>", ":if &modifiable && !&readonly && &modified <CR> :write<CR> :endif<CR>:bnext<CR>", { silent = true })
 vim.keymap.set("n", "<s-tab>", ":if &modifiable && !&readonly && &modified <CR> :write<CR> :endif<CR>:bprevious<CR>", { silent = true })
 
