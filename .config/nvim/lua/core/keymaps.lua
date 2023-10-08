@@ -36,6 +36,12 @@ vim.keymap.set("n", "<A-Down>", ":resize +2<CR>")
 vim.keymap.set("n", "<A-Left>", ":vertical resize -2<CR>")
 vim.keymap.set("n", "<A-Right>", ":vertical resize +2<CR>")
 
+-- text movement
+vim.keymap.set("v", "<C-j>", ":m '>+1<CR>gv")
+vim.keymap.set("v", "<C-k>", ":m '<-2<CR>gv")
+vim.keymap.set("v", "<C-h>", "<gv")
+vim.keymap.set("v", "<C-l>", ">gv")
+
 -- clipboard
 vim.keymap.set({"n", "v"}, "<Leader>y", "\"+y")
 vim.keymap.set({"n", "v"}, "<Leader>p", "\"+p")
