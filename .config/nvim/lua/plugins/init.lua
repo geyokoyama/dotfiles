@@ -50,8 +50,10 @@ require("lazy").setup({
   {
     "ibhagwan/fzf-lua",
     keys = {
-      { "<c-p>", ":FzfLua files<CR>", silent = true },
-      { "<c-b>", ":FzfLua buffers<CR>", silent = true }
+      { "<Leader>\\", ":FzfLua files<CR>", silent = true },
+      { "<Leader>b", ":FzfLua buffers<CR>", silent = true },
+      { "<Leader>k", ":FzfLua builtin<CR>", silent = true },
+      { "<Leader>f", ":FzfLua live_grep<CR>", silent = true }
     },
   },
 
