@@ -88,6 +88,15 @@ require("lazy").setup({
     config = function() require("lualine").setup() end
   },
 
-  "sindrets/diffview.nvim"
+  "sindrets/diffview.nvim",
+
+  {
+    "jiaoshijie/undotree",
+    dependencies = "nvim-lua/plenary.nvim",
+    config = true,
+    keys = { -- load the plugin only when using it's keybinding:
+      { "<F4>", "<cmd>lua require('undotree').toggle()<cr>" },
+    },
+  }
 
 })
