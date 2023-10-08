@@ -16,5 +16,5 @@ alias g='git'
 alias proj='cd ~/projects'
 alias nfig='cd ~/.config/nvim'
 
-alias serve='live-server --port=8000'
+alias serve='live-server --verbose'
 alias pg_start='sudo service postgresql start'
