@@ -86,6 +86,8 @@ require("lazy").setup({
     "nvim-lualine/lualine.nvim",
     dependencies = { "kyazdani42/nvim-web-devicons", lazy = true },
     config = function() require("lualine").setup() end
-  }
+  },
+
+  "sindrets/diffview.nvim"
 
 })

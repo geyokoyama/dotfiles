@@ -33,9 +33,9 @@
 
 ### Git
 * [lewis6991/gitsigns.nvim](https://github.com/lewis6991/gitsigns.nvim)
+* [sindrets/diffview.nvim](https://github.com/sindrets/diffview.nvim)
 * \*[NeogitOrg/neogit](https://github.com/NeogitOrg/neogit)
 * \*[rhysd/git-messenger.vim](https://github.com/rhysd/git-messenger.vim)
-* \*[sindrets/diffview.nvim](https://github.com/sindrets/diffview.nvim)
 
 ### Motion
 * [ggandor/leap.nvim](https://github.com/ggandor/leap.nvim)
