@@ -29,9 +29,7 @@ require("lazy").setup({
 
   {
     "lukas-reineke/indent-blankline.nvim",
-    config = function()
-      require("ibl").setup()
-    end
+    config = function() require("ibl").setup() end
   },
 
   "wellle/targets.vim",
@@ -59,7 +57,26 @@ require("lazy").setup({
 
   {
     "lewis6991/gitsigns.nvim",
-    config = function() require("gitsigns").setup() end
+    config = function() require("gitsigns").setup() end,
+    lazy = false,
+    keys = {
+      { "<Leader>hh", ":Gitsigns next_hunk<CR>" },
+      { "<Leader>HH", ":Gitsigns prev_hunk<CR>" },
+      { "<Leader>hs", ":Gitsigns stage_hunk<CR>" },
+      { "<Leader>hs", ":Gitsigns stage_hunk<CR>", mode = "v" },
+      { "<Leader>hS", ":Gitsigns stage_buffer<CR>" },
+      { "<Leader>hr", ":Gitsigns reset_hunk<CR>" },
+      { "<Leader>hr", ":Gitsigns reset_hunk<CR>", mode = "v" },
+      { "<Leader>hR", ":Gitsigns reset_buffer<CR>" },
+      { "<Leader>hRR", ":Gitsigns reset_buffer_index<CR>" },
+      { "<Leader>hu", ":Gitsigns undo_stage_hunk<CR>" },
+      { "<Leader>hp", ":Gitsigns preview_hunk<CR>" },
+      { "<Leader>hb", ":Gitsigns blame_line full<CR>" },
+      { "<Leader>tb", ":Gitsigns toggle_current_line_blame<CR>" },
+      { "<Leader>hd", ":Gitsigns diffthis<CR>" },
+      { "<Leader>hD", ":Gitsigns diffthis ~<CR>" },
+      { "<Leader>td", ":Gitsigns toggle_deleted<CR>" },
+    }
   },
 
   {
