@@ -105,6 +105,13 @@ require("lazy").setup({
       "ibhagwan/fzf-lua",              -- optional
     },
     config = true
+  },
+
+  {
+    "nvim-treesitter/nvim-treesitter",
+    build = ":TSUpdate"
   }
 
 })
+
+require("plugins/treesitter")
