@@ -17,7 +17,8 @@
 
 ### Syntax
 
-* \*[nvim-treesitter/nvim-treesitter](https://github.com/nvim-treesitter/nvim-treesitter)
+* [nvim-treesitter/nvim-treesitter-textobjects](https://github.com/nvim-treesitter/nvim-treesitter-textobjects)
+* [nvim-treesitter/nvim-treesitter](https://github.com/nvim-treesitter/nvim-treesitter)
 * [kylechui/nvim-surround](https://github.com/kylechui/nvim-surround)
 
 ### Fuzzy Finder
