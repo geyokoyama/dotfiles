@@ -10,11 +10,6 @@
 
 ### LSP
 
-* \*[neovim/nvim-lspconfig](https://github.com/neovim/nvim-lspconfig)
-* \*[williamboman/mason.nvim](https://github.com/williamboman/mason.nvim)
-* \*[williamboman/mason-lspconfig.nvim](https://github.com/williamboman/mason-lspconfig.nvim)
-* \*[hrsh7th/nvim-cmp](https://github.com/hrsh7th/nvim-cmp)
-
 ### Syntax
 
 * [nvim-treesitter/nvim-treesitter-textobjects](https://github.com/nvim-treesitter/nvim-treesitter-textobjects)
@@ -35,8 +30,7 @@
 ### Git
 * [lewis6991/gitsigns.nvim](https://github.com/lewis6991/gitsigns.nvim)
 * [sindrets/diffview.nvim](https://github.com/sindrets/diffview.nvim)
-* \*[NeogitOrg/neogit](https://github.com/NeogitOrg/neogit)
-* \*[rhysd/git-messenger.vim](https://github.com/rhysd/git-messenger.vim)
+* [NeogitOrg/neogit](https://github.com/NeogitOrg/neogit)
 
 ### Motion
 * [ggandor/leap.nvim](https://github.com/ggandor/leap.nvim)
@@ -45,5 +39,4 @@
 * [numToStr/Comment.nvim](https://github.com/numToStr/Comment.nvim)
 * [lukas-reineke/indent-blankline.nvim](https://github.com/lukas-reineke/indent-blankline.nvim)
 * [wellle/targets.vim](https://github.com/wellle/targets.vim)
-
-_\* Considering to install_
+* [jiaoshijie/undotree](https://github.com/jiaoshijie/undotree)
