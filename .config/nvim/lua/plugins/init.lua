@@ -48,10 +48,10 @@ require("lazy").setup({
   {
     "ibhagwan/fzf-lua",
     keys = {
-      { "<Leader>\\", ":FzfLua files<CR>", silent = true },
-      { "<Leader>bb", ":FzfLua buffers<CR>", silent = true },
-      { "<Leader>k", ":FzfLua builtin<CR>", silent = true },
-      { "<Leader>f", ":FzfLua live_grep<CR>", silent = true }
+      { "<Leader>\\", ":FzfLua files<CR>",     silent = true },
+      { "<Leader>bb", ":FzfLua buffers<CR>",   silent = true },
+      { "<Leader>k",  ":FzfLua builtin<CR>",   silent = true },
+      { "<Leader>f",  ":FzfLua live_grep<CR>", silent = true }
     },
   },
 
@@ -60,26 +60,26 @@ require("lazy").setup({
     config = function() require("gitsigns").setup() end,
     lazy = false,
     keys = {
-      { "<Leader>hh", ":Gitsigns next_hunk<CR>" },
-      { "<Leader>HH", ":Gitsigns prev_hunk<CR>" },
-      { "<Leader>hs", ":Gitsigns stage_hunk<CR>", mode = { "n", "v" } },
-      { "<Leader>hS", ":Gitsigns stage_buffer<CR>" },
-      { "<Leader>hr", ":Gitsigns reset_hunk<CR>", mode = { "n", "v" } },
-      { "<Leader>hR", ":Gitsigns reset_buffer<CR>" },
+      { "<Leader>hh",  ":Gitsigns next_hunk<CR>" },
+      { "<Leader>HH",  ":Gitsigns prev_hunk<CR>" },
+      { "<Leader>hs",  ":Gitsigns stage_hunk<CR>",               mode = { "n", "v" } },
+      { "<Leader>hS",  ":Gitsigns stage_buffer<CR>" },
+      { "<Leader>hr",  ":Gitsigns reset_hunk<CR>",               mode = { "n", "v" } },
+      { "<Leader>hR",  ":Gitsigns reset_buffer<CR>" },
       { "<Leader>hRR", ":Gitsigns reset_buffer_index<CR>" },
-      { "<Leader>hu", ":Gitsigns undo_stage_hunk<CR>" },
-      { "<Leader>hp", ":Gitsigns preview_hunk<CR>" },
-      { "<Leader>hb", ":Gitsigns blame_line full<CR>" },
-      { "<Leader>tb", ":Gitsigns toggle_current_line_blame<CR>" },
-      { "<Leader>hd", ":Gitsigns diffthis<CR>" },
-      { "<Leader>hD", ":Gitsigns diffthis ~<CR>" },
-      { "<Leader>td", ":Gitsigns toggle_deleted<CR>" },
+      { "<Leader>hu",  ":Gitsigns undo_stage_hunk<CR>" },
+      { "<Leader>hp",  ":Gitsigns preview_hunk<CR>" },
+      { "<Leader>hb",  ":Gitsigns blame_line full<CR>" },
+      { "<Leader>tb",  ":Gitsigns toggle_current_line_blame<CR>" },
+      { "<Leader>hd",  ":Gitsigns diffthis<CR>" },
+      { "<Leader>hD",  ":Gitsigns diffthis ~<CR>" },
+      { "<Leader>td",  ":Gitsigns toggle_deleted<CR>" },
     }
   },
 
   {
     "EdenEast/nightfox.nvim",
-    config = function() vim.cmd("colorscheme nordfox") end  -- nightfox, duskfox, nordfox, terafox
+    config = function() vim.cmd("colorscheme nordfox") end -- nightfox, duskfox, nordfox, terafox
   },
 
   {
@@ -100,9 +100,9 @@ require("lazy").setup({
   {
     "NeogitOrg/neogit",
     dependencies = {
-      "nvim-lua/plenary.nvim",         -- required
-      "sindrets/diffview.nvim",        -- optional
-      "ibhagwan/fzf-lua",              -- optional
+      "nvim-lua/plenary.nvim",  -- required
+      "sindrets/diffview.nvim", -- optional
+      "ibhagwan/fzf-lua",       -- optional
     },
     config = true
   },
@@ -111,20 +111,25 @@ require("lazy").setup({
 
   {
     "nvim-treesitter/nvim-treesitter",
-    build = ":TSUpdate"
+    build = ":TSUpdate",
+    config = function() require("plugins/treesitter") end
   },
 
-  "onsails/lspkind.nvim",
   "williamboman/mason.nvim",
   "williamboman/mason-lspconfig.nvim",
+
+  "onsails/lspkind.nvim",
   "neovim/nvim-lspconfig",
   "hrsh7th/cmp-nvim-lsp",
   "hrsh7th/cmp-buffer",
   "hrsh7th/cmp-path",
   "hrsh7th/cmp-cmdline",
-  "hrsh7th/nvim-cmp"
+  "hrsh7th/nvim-cmp",
+
+  "L3MON4D3/LuaSnip",
+  "rafamadriz/friendly-snippets",
+  "saadparwaiz1/cmp_luasnip",
 
 })
 
-require("plugins/treesitter")
 require("plugins/lsp")

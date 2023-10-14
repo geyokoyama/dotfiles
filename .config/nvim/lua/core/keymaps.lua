@@ -22,8 +22,10 @@ vim.keymap.set("n", "<F3>", ":set list!<CR>", { silent = true })
 -- tab navigation
 vim.keymap.set("n", "<Leader>b", ":ls<CR>:b<Space>")
 vim.keymap.set("n", "<Leader>bd", ":bd<CR>")
-vim.keymap.set("n", "<tab>", ":if &modifiable && !&readonly && &modified <CR> :write<CR> :endif<CR>:bnext<CR>", { silent = true })
-vim.keymap.set("n", "<s-tab>", ":if &modifiable && !&readonly && &modified <CR> :write<CR> :endif<CR>:bprevious<CR>", { silent = true })
+vim.keymap.set("n", "<tab>", ":if &modifiable && !&readonly && &modified <CR> :write<CR> :endif<CR>:bnext<CR>",
+  { silent = true })
+vim.keymap.set("n", "<s-tab>", ":if &modifiable && !&readonly && &modified <CR> :write<CR> :endif<CR>:bprevious<CR>",
+  { silent = true })
 
 -- window navigation
 vim.keymap.set("n", "<A-h>", "<C-w>h")
@@ -44,5 +46,5 @@ vim.keymap.set("v", "<C-h>", "<gv")
 vim.keymap.set("v", "<C-l>", ">gv")
 
 -- clipboard
-vim.keymap.set({"n", "v"}, "<Leader>y", "\"+y")
-vim.keymap.set({"n", "v"}, "<Leader>p", "\"+p")
+vim.keymap.set({ "n", "v" }, "<Leader>y", "\"+y")
+vim.keymap.set({ "n", "v" }, "<Leader>p", "\"+p")
