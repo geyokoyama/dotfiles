@@ -114,6 +114,7 @@ require("lazy").setup({
     build = ":TSUpdate"
   },
 
+  "onsails/lspkind.nvim",
   "williamboman/mason.nvim",
   "williamboman/mason-lspconfig.nvim",
   "neovim/nvim-lspconfig",

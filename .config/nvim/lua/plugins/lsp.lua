@@ -8,10 +8,19 @@ require("mason-lspconfig").setup()
 
 -- Setup nvim-cmp
 local cmp = require("cmp")
+local lspkind = require("lspkind")
+
 cmp.setup({
   sources = {
     { name = "nvim_lsp" },
     { name = "path" }
+  },
+  formatting = {
+    format = lspkind.cmp_format({
+      mode = 'symbol_text',
+      maxwidth = 50,
+      ellipses_char = "..."
+    })
   }
 })
 
@@ -43,6 +52,7 @@ local capabilities = require("cmp_nvim_lsp").default_capabilities()
 lspconfig.lua_ls.setup({
   capabilities = capabilities
 })
+
 
 vim.api.nvim_create_autocmd("LspAttach", {
   callback = function(ev)
