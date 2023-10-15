@@ -46,6 +46,16 @@ require("lazy").setup({
   },
 
   {
+    "folke/which-key.nvim",
+    event = "VeryLazy",
+    init = function()
+      vim.o.timeout = true
+      vim.o.timeoutlen = 300
+      require("which-key").setup()
+    end,
+  },
+
+  {
     "ibhagwan/fzf-lua",
     keys = {
       { "<Leader>\\", ":FzfLua files<CR>",     silent = true },
