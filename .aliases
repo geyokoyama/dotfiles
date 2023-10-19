@@ -6,6 +6,7 @@ alias rm='rm -i'
 alias cp='cp -i'
 alias mv='mv -i'
 
+# Bash command aliases
 alias upp='sudo /bin/sh -c "apt update && apt upgrade && apt autoremove && apt autoclean"'
 alias source_bash='source $HOME/.bashrc'
 alias hgrep='history|grep'
@@ -13,8 +14,11 @@ alias agrep='alias|grep'
 alias apti='sudo apt install'
 alias g='git'
 
+# Directories
 alias proj='cd ~/projects'
 alias nfig='cd ~/.config/nvim'
 
+# Services
 alias serve='live-server --verbose'
 alias pg_start='sudo service postgresql start'
+alias docker_ubuntu='sudo docker run  -ti --rm ubuntu:22.04 /bin/bash'
