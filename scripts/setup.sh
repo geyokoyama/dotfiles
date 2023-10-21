@@ -28,6 +28,7 @@ _error() {
 
 install_git() {
   _process "-> Installing git"
+  apt install git
 }
 
 install_starship() {
@@ -35,12 +36,27 @@ install_starship() {
   curl -sS https://starship.rs/install.sh | sh
 }
 
-Install_node() {
+install_fzf() {
+  _process "-> Installing fzf"
+  apt install fzf
+}
+
+Install_nvm() {
+  _process "-> Installing nvm"
+  curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.5/install.sh | bash
+
   _process "-> Installing node"
+  nvm install --lts
+  nvm use --lts
 }
 
 Install_rbenv() {
-  _process "-> Installing ruby"
+  _process "-> Installing rbenv"
+  git clone https://github.com/rbenv/rbenv.git ~/.rbenv
+  git clone https://github.com/rbenv/ruby-build.git "$(rbenv root)"/plugins/ruby-build
+  apt-get install autoconf patch build-essential rustc libssl-dev libyaml-dev libreadline6-dev zlib1g-dev libgmp-dev libncurses5-dev libffi-dev libgdbm6 libgdbm-dev libdb-dev uuid-dev
+
+  _process "-> You'll need to restart the terminal for the changes to take effect"
 }
 
 install_neovim() {
@@ -72,7 +88,7 @@ download_dotfiles() {
   _process "-> Checking out repo files to $HOME directory"
   config checkout
 
-  _process "-> Configure repo to not show untracked files"
+  _process "-> Configuring repo to not show untracked files"
   config config --local status.showUntrackedFiles no
 
   _process "-> Please source .bashrc \`source $HOME/.bashrc\` or restart the shell"
@@ -82,6 +98,8 @@ install() {
   download_dotfiles
   # install_git
   # install_starship
+  # install_fzf
+  # install_nvm
   # Install_rbenv
   # install_neovim
 }
