@@ -10,7 +10,7 @@ vim.g.localleader = ","
 vim.keymap.set({ "i", "v" }, "jk", "<Esc>")
 
 -- edit/source vimrc
-vim.keymap.set("n", "<Leader>ev", ":edit $MYVIMRC<CR>")
+vim.keymap.set("n", "<Leader>ev", ":tabe $MYVIMRC<CR>")
 vim.keymap.set("n", "<Leader>sv", ":luafile %<CR>")
 
 -- highlight cursor area

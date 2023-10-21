@@ -111,6 +111,10 @@ lspconfig.lua_ls.setup({
   capabilities = capabilities
 })
 
+lspconfig.bashls.setup({
+  capabilities = capabilities
+})
+
 vim.api.nvim_create_autocmd("LspAttach", {
   callback = function(ev)
     local opts = { buffer = ev.buff }
