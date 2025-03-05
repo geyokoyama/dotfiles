@@ -24,8 +24,9 @@
 
 * [EdenEast/nightfox.nvim](https://github.com/EdenEast/nightfox.nvim)
 
-### Statusline & Tabline & Winbar
+### Visuals
 * [nvim-lualine/lualine.nvim](https://github.com/nvim-lualine/lualine.nvim)
+* [prichrd/netrw.nvim](https://github.com/prichrd/netrw.nvim)
 
 ### Git
 * [lewis6991/gitsigns.nvim](https://github.com/lewis6991/gitsigns.nvim)
@@ -40,3 +41,6 @@
 * [lukas-reineke/indent-blankline.nvim](https://github.com/lukas-reineke/indent-blankline.nvim)
 * [wellle/targets.vim](https://github.com/wellle/targets.vim)
 * [jiaoshijie/undotree](https://github.com/jiaoshijie/undotree)
+
+### Open url
+* [rmagatti/gx-extended.nvim](https://github.com/rmagatti/gx-extended.nvim)

@@ -14,7 +14,7 @@ vim.keymap.set("n", "<Leader>ev", ":tabe $MYVIMRC<CR>")
 vim.keymap.set("n", "<Leader>sv", ":luafile %<CR>")
 
 -- highlight cursor area
-vim.keymap.set("n", "<F2>", ":set cursorcolumn!<CR> :set cursorline!<CR>")
+vim.keymap.set("n", "<F2>", ":set cursorcolumn!<CR> :set cursorline!<CR>h")
 
 -- toggle hidden characters
 vim.keymap.set("n", "<F3>", ":set list!<CR>", { silent = true })

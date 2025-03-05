@@ -18,6 +18,16 @@ vim.opt.rtp:prepend(lazypath)
 
 require("lazy").setup({
 
+  {
+    "prichrd/netrw.nvim",
+    config = function() require("netrw").setup() end
+  },
+
+  {
+    "rmagatti/gx-extended.nvim",
+    config = function() require("gx-extended").setup({}) end
+  },
+
   "mattn/emmet-vim",
 
   {
